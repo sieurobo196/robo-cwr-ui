@@ -1,0 +1,16 @@
+ .current-chapter {
+  padding: 5px 10px;
+  border-bottom: 1px dotted;
+}
+.current-chapter.active {
+  font-weight: bold;
+}
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  border-bottom: 2px solid #000 !important;
+}
+.row.post-page-custom {
+  margin: 0px !important;
+}

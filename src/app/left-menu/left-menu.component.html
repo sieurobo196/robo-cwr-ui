@@ -1,1 +1,7 @@
-<p>left-menu works!</p>
+<div>
+  <div class="current-chapter heading"> Tutorials</div>
+  <ng-container *ngFor="let item of listPost">
+    <div class="current-chapter {{item.url}}"><a
+      href="/{{type}}/{{item.url}}">{{item.title}}</a></div>
+  </ng-container>
+</div>

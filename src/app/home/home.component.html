@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class="container css-main">
+  <div class="row">
+<!--    <c:forEach items="${languageDtos}" var="languageDto">-->
+    <ng-container *ngFor="let item of listLanguages" >
+      <div class="col-sm-6 col-md-4 col-xl-3">
+        <div class="item-language">
+          <h2>{{item.name}}</h2>
+          <p>{{item.description}}</p>
+          <div class="button-learn"><a class="btn btn-primary" href="{{item.url}}">Learning now >></a></div>
+        </div>
+      </div>
+    </ng-container>
+<!--    </c:forEach>-->
+  </div>
+</div>

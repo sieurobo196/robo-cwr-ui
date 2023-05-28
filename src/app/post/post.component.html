@@ -1,1 +1,18 @@
-<p>post works!</p>
+<div class="post-page">
+  <div class="row post-page-custom">
+    <div class="col-sm-12 col-md-3 col-xl-3 left-menu-posts">
+      <div class="current-chapter heading"> Tutorials</div>
+      <ng-container *ngFor="let item of listPost">
+        <div class="current-chapter {{item.url == url ? 'acitve':''}}"><a
+          href="/{{type}}/{{item.url}}">{{item.title}}</a></div>
+      </ng-container>
+    </div>
+    <div class="col-sm-12 col-md-9 col-xl-9 post-detail-content">
+      <div class="title-post">{{postDetail.title}}</div>
+      <div class="content-post" [innerHTML]="postDetail.content"></div>
+    </div>
+<!--    <div class="col-sm-12 col-md-2 col-xl-2 right-extend">-->
+
+<!--    </div>-->
+  </div>
+</div>

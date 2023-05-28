@@ -1,0 +1,45 @@
+.post-page {
+  background: #eeeeff;
+
+}
+
+img {
+  width: 100% !important;
+  height: auto;
+}
+
+.post-detail-content {
+  background: #fff;
+  padding-top: 20px;
+}
+
+.post-detail-content .title-post {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.post-detail-content .content-post {
+  padding-top: 5px;
+}
+
+
+.current-chapter {
+  padding: 5px 10px;
+  border-bottom: 1px dotted;
+}
+
+.acitve.current-chapter {
+  font-weight: bold;
+}
+
+  .heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  border-bottom: 2px solid #000 !important;
+}
+
+.row.post-page-custom {
+  margin: 0px !important;
+}
