@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start-dev": "ng serve --proxy-config proxy.conf.json"
+    "start-dev": "ng serve --proxy-config proxy.conf.json",
+    "start-pm2": "pm2 start npm --name 'codewr-ui-app' -- start-dev"
   },
   "private": true,
   "dependencies": {
